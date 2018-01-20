@@ -1,0 +1,18 @@
+há um server de webpack para testes. Ele se chama webpack-dev-server e está
+disponível para download no NPM com >sudo npm install -g webpack-dev-server
+
+Para rodar o app com ele basta dar o comando no terminal:
+webpack-dev-server --content-base build
+
+Com este comando o server webpack irá servir a partir da pasta /build e irá buscar
+por padrão o arquivo index.html
+
+
+Para não ter que ficar digitando essa linha o tempo todo no terminal para subir o server
+com essa config, podemos criar um alias no package.json desta forma:
+"scripts": {
+  "start": "webpack-dev-server --content-base build"
+},
+
+assim, podemos subir o server com o comando >npm run start ou simplesmente
+>npm start

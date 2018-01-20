@@ -1,0 +1,23 @@
+{
+  "name": "webpack-tutorial",
+  "version": "1.0.0",
+  "description": "testes com webpack",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack-dev-server --content-base build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WiniciusDutra/webpack-tutorial.git"
+  },
+  "author": "Vinícius Dutra de Aguiar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WiniciusDutra/webpack-tutorial/issues"
+  },
+  "homepage": "https://github.com/WiniciusDutra/webpack-tutorial#readme",
+  "dependencies": {
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
+  }
+}
