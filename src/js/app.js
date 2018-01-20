@@ -1,3 +1,5 @@
+debugger;
+
 const { sayHelloTo }= require('./hello.js');//importando o módulo hello
 
 const span = document.createElement('span');//criando elemento span
