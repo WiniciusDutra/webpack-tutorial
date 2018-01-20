@@ -4,7 +4,8 @@
   "description": "testes com webpack",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "webpack-dev-server --content-base build"
+    "start": "webpack-dev-server --content-base build --inline --hot",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",

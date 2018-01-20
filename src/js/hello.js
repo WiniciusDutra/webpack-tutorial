@@ -1,4 +1,4 @@
-const sayHelloTo = name => `Hello ${name}`; //criando função Hello
+const sayHelloTo = name => `Olá, ${name}`; //criando função Hello
 
 module.exports = { //exportando a função Hello
   sayHelloTo

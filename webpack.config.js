@@ -5,6 +5,6 @@
 module.exports = {
   entry: './src/js/app.js',
   output: {
-    filename: './build/bundle.js'
-  }
+    path: './build/bundle.js' //Não usar parametro 'filename:' pois isto vai impedir
+  }                           //o funcionamento do Hot Module Replacement
 }
